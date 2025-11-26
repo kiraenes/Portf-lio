@@ -7,6 +7,9 @@
   letter-spacing: 5px;
   z-index: 1;
   animation: shift 1s ease-in-out infinite alternate;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .glitch:before,
@@ -90,3 +93,4 @@
     transform: skewX(10deg) skewY(-10deg);
   }
 }
+
