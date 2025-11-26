@@ -83,3 +83,12 @@ header p {
     height: 188px;  /* or remove height to auto-scale */
     object-fit: contain;
 }
+
+
+y {
+    display: block;
+    color: #bbb;
+    font-size: 0.5rem;
+    text-align: center; /* optional: center text under icon */
+}
+
