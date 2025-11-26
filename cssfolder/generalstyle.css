@@ -84,6 +84,19 @@ header p {
     object-fit: contain;
 }
 
+img {
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.linkedin-round {
+  border-radius: 10px;     /* recorta em círculo */
+  pointer-events: none;   /* impede clicar */
+  user-select: none;      /* impede selecionar */
+  -webkit-user-drag: none;
+}
+
 
 y {
     display: block;
@@ -91,4 +104,6 @@ y {
     font-size: 0.5rem;
     text-align: center; /* optional: center text under icon */
 }
+
+
 
