@@ -42,6 +42,22 @@ header h2 {
     -webkit-user-drag: none;
 }
 
+h3 {
+    color: #ffffff;
+    font-size: 1.1rem;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: .9rem;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
 
 #project-grid {
     display: grid;
@@ -112,4 +128,5 @@ y {
     user-select: none;
     -webkit-user-drag: none;
 }
+
 
